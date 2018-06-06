@@ -7,11 +7,6 @@ pipeline {
             steps {
                 sh 'node --version'
             }
-	},
-	stage('Hello World') {
-	    steps{
-		sh 'Hello World!!!'
-	    }
-        }
+	}
     }
 }
